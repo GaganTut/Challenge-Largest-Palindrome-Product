@@ -40,6 +40,3 @@ module.exports = function(digits){
     palindromeNumber : palindromeNumber
   };
 };
-
-console.log(module.exports(2));
-
