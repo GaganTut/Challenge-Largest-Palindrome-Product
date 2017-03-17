@@ -34,11 +34,6 @@ module.exports = function(digits){
     }
   }
 
-
-
-
-
-
   return {
     factor_0 : factor_0,
     factor_1 : factor_1,
