@@ -26,10 +26,8 @@ module.exports = function(digits){
     for (var k = 0; k <= factor_1; k++) {
       palNum = j * k;
       var palNumArrRev = parseInt(palNum.toString().split("").reverse().join(""));
-      if (palNum === palNumArrRev) {
-        if (palNum > palindromeNumber) {
-          palindromeNumber = palNum;
-        }
+      if (palNum === palNumArrRev && palNum > palindromeNumber) {
+        palindromeNumber = palNum;
       }
     }
   }
